@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+char arr[5],i;
+printf("\n enter the values of array:\n")
+for(i=0;i<5;i++)
+{
+scanf("\n %c",&arr[i]);
+fflush(stdin);
+}
+printf("\n the elements are:");
+for(i=0;i<5;i++)
+{
+printf("\n %c \t %d",arr[i],&arr[i]);
+}
